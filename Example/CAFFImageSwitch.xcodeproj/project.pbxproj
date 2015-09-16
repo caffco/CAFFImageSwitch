@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		136E2CB51BA9D13E002E1056 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 136E2CB11BA9D13E002E1056 /* check.png */; settings = {ASSET_TAGS = (); }; };
+		136E2CB61BA9D13E002E1056 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 136E2CB21BA9D13E002E1056 /* check@2x.png */; settings = {ASSET_TAGS = (); }; };
+		136E2CB71BA9D13E002E1056 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 136E2CB31BA9D13E002E1056 /* cross.png */; settings = {ASSET_TAGS = (); }; };
+		136E2CB81BA9D13E002E1056 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 136E2CB41BA9D13E002E1056 /* cross@2x.png */; settings = {ASSET_TAGS = (); }; };
+		136E2CBB1BA9D1DC002E1056 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136E2CBA1BA9D1DC002E1056 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		37853DA1858386DAD282F9CF /* Pods_CAFFImageSwitch_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FD2C782515A1AF0F6E43A3 /* Pods_CAFFImageSwitch_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		136E2CB11BA9D13E002E1056 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		136E2CB21BA9D13E002E1056 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		136E2CB31BA9D13E002E1056 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		136E2CB41BA9D13E002E1056 /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		136E2CBA1BA9D1DC002E1056 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		2AF657D6E4A8A9B7E1ADF384 /* Pods-CAFFImageSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAFFImageSwitch_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CAFFImageSwitch_Tests/Pods-CAFFImageSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		36ECC43CA924ADEC5D8D9EB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4DB148402C33DE75C8CC1650 /* Pods-CAFFImageSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAFFImageSwitch_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CAFFImageSwitch_Example/Pods-CAFFImageSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +103,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		136E2CB91BA9D141002E1056 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				136E2CB11BA9D13E002E1056 /* check.png */,
+				136E2CB21BA9D13E002E1056 /* check@2x.png */,
+				136E2CB31BA9D13E002E1056 /* cross.png */,
+				136E2CB41BA9D13E002E1056 /* cross@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -130,9 +151,11 @@
 		6003F593195388D20070C39A /* Example for CAFFImageSwitch */ = {
 			isa = PBXGroup;
 			children = (
+				136E2CB91BA9D141002E1056 /* Assets */,
 				6003F59C195388D20070C39A /* CAFFAppDelegate.h */,
 				6003F59D195388D20070C39A /* CAFFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				136E2CBA1BA9D1DC002E1056 /* Launch Screen.storyboard */,
 				6003F5A5195388D20070C39A /* CAFFViewController.h */,
 				6003F5A6195388D20070C39A /* CAFFViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -276,8 +299,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				136E2CB71BA9D13E002E1056 /* cross.png in Resources */,
+				136E2CB61BA9D13E002E1056 /* check@2x.png in Resources */,
+				136E2CBB1BA9D1DC002E1056 /* Launch Screen.storyboard in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				136E2CB81BA9D13E002E1056 /* cross@2x.png in Resources */,
+				136E2CB51BA9D13E002E1056 /* check.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

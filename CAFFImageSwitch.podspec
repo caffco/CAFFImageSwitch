@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "CAFFImageSwitch"
   s.version          = "0.1.0"
-  s.summary          = "A short description of CAFFImageSwitch."
+  s.summary          = "UISwitch-like control with customizable images for `on` and `off` states. Based on https://github.com/bvogelzang/SevenSwitch."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,20 +19,20 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/CAFFImageSwitch"
+  s.homepage         = "https://github.com/caffco/CAFFImageSwitch"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Lluís Ulzurrun de Asanza i Sàez" => "me@llu.is" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/CAFFImageSwitch.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.license          = 'GPLv2'
+  s.author           = { "Lluís Ulzurrun de Asanza i Sàez" => "lluis@caff.co" }
+  s.source           = { :git => "https://github.com/caffco/CAFFImageSwitch.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/sumolari'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'CAFFImageSwitch' => ['Pod/Assets/*.png']
-  }
+  # s.resource_bundles = {
+  #   'CAFFImageSwitch' => ['Pod/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

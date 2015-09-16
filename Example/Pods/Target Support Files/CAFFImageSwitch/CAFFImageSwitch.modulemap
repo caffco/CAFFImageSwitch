@@ -1,0 +1,6 @@
+framework module CAFFImageSwitch {
+  umbrella header "CAFFImageSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

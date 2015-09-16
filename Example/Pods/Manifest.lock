@@ -1,0 +1,14 @@
+PODS:
+  - CAFFImageSwitch (0.1.0)
+
+DEPENDENCIES:
+  - CAFFImageSwitch (from `../`)
+
+EXTERNAL SOURCES:
+  CAFFImageSwitch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CAFFImageSwitch: fef79a729ffcd268dc89ec96602435c2b2f2f536
+
+COCOAPODS: 0.38.2

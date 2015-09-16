@@ -8,6 +8,10 @@
 
 @import UIKit;
 
+@class CAFFImageSwitch;
+
 @interface CAFFViewController : UIViewController
+
+@property (nonatomic, strong) IBOutlet CAFFImageSwitch *ibSwitch;
 
 @end

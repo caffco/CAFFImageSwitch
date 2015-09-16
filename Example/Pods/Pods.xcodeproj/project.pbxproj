@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F3A0C1A73FE1511AA7DE5EC7EE0C22 /* CAFFImageSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A60B6ED3AB37E6BA9A7F21410D25B /* CAFFImageSwitch.m */; };
+		3B35D0D66972E068325143F953B89360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6262498BC8536B6D681427E2C9B9709A /* Foundation.framework */; };
+		400E176FA8697FDF5D5BE92518F910BA /* CAFFImageSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D3999DC29854F499B461D4AE3F2D68 /* CAFFImageSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49AB5CE0F8EBE02CF0B966178D0B1B30 /* Pods-CAFFImageSwitch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5893676F1A8C2588EA6CAE4752CD1456 /* Pods-CAFFImageSwitch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7459417871CA743A7124CDFC930497B2 /* CAFFImageSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0CC4CBCD5A228D2A2BCF28382BBEAF /* CAFFImageSwitch-dummy.m */; };
+		7DA2081AF3E5F047ECCEE9C0FB972ACF /* Pods-CAFFImageSwitch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B94F9D1009FD9A723C433E48BB8B2C /* Pods-CAFFImageSwitch_Tests-dummy.m */; };
+		89BB803D7B1BF2AB2817EE7D86348023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6262498BC8536B6D681427E2C9B9709A /* Foundation.framework */; };
+		9D756C21698E93883BE04A8A01FD4848 /* Pods-CAFFImageSwitch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4450AE54E6F138456AC103CBDDDB570E /* Pods-CAFFImageSwitch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FC1AEB29310DEFA96D767AEC7EE85B6 /* CAFFImageSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FAFF4F6BE308D8E9DADB21F1FD59977 /* CAFFImageSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D612FF50B2FE52061FE72446F62C4CCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6262498BC8536B6D681427E2C9B9709A /* Foundation.framework */; };
+		D9DDA56F035BFADA3A23150836D63F6A /* Pods-CAFFImageSwitch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3DB300A285BEA652BF3DAB87FCF913 /* Pods-CAFFImageSwitch_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38F1FFC8B53C31BD60DD5DB543FB151B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A815D4D5F661B3DCD8849130AF29F05D;
+			remoteInfo = CAFFImageSwitch;
+		};
+		4596531DFB093D2639939E65AE3CAF1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A815D4D5F661B3DCD8849130AF29F05D;
+			remoteInfo = CAFFImageSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0518A19A4B9C1FC609FBC68D6FCC244B /* Pods-CAFFImageSwitch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CAFFImageSwitch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A3DB300A285BEA652BF3DAB87FCF913 /* Pods-CAFFImageSwitch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CAFFImageSwitch_Example-dummy.m"; sourceTree = "<group>"; };
+		4450AE54E6F138456AC103CBDDDB570E /* Pods-CAFFImageSwitch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CAFFImageSwitch_Example-umbrella.h"; sourceTree = "<group>"; };
+		483BD85D3829538F6DDC9C93A734D9B0 /* Pods-CAFFImageSwitch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CAFFImageSwitch_Tests.modulemap"; sourceTree = "<group>"; };
+		4B38028C1561FE92B0EB359804FE89B0 /* Pods_CAFFImageSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAFFImageSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D283814C21AD52BBE744EF930391B4F /* CAFFImageSwitch-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CAFFImageSwitch-Private.xcconfig"; sourceTree = "<group>"; };
+		4F51D7D8CDDF87AE3B86FCC868D1EAC7 /* CAFFImageSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CAFFImageSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		517A60B6ED3AB37E6BA9A7F21410D25B /* CAFFImageSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CAFFImageSwitch.m; sourceTree = "<group>"; };
+		5893676F1A8C2588EA6CAE4752CD1456 /* Pods-CAFFImageSwitch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CAFFImageSwitch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5DE7EB278F397E961B216E3B89267E85 /* CAFFImageSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAFFImageSwitch-prefix.pch"; sourceTree = "<group>"; };
+		5FAFF4F6BE308D8E9DADB21F1FD59977 /* CAFFImageSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAFFImageSwitch-umbrella.h"; sourceTree = "<group>"; };
+		6020282E83FC079F34957DD9E6AA3F11 /* Pods-CAFFImageSwitch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CAFFImageSwitch_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6262498BC8536B6D681427E2C9B9709A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		695CA4ACB48244A0C9C081ACF4020B5A /* Pods-CAFFImageSwitch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CAFFImageSwitch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C0CC4CBCD5A228D2A2BCF28382BBEAF /* CAFFImageSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAFFImageSwitch-dummy.m"; sourceTree = "<group>"; };
+		74AAD25563598012171A893F88831F05 /* CAFFImageSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CAFFImageSwitch.modulemap; sourceTree = "<group>"; };
+		7626E05CF5386763B1E82607CCDC4C9F /* Pods-CAFFImageSwitch_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CAFFImageSwitch_Example-resources.sh"; sourceTree = "<group>"; };
+		78B94F9D1009FD9A723C433E48BB8B2C /* Pods-CAFFImageSwitch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CAFFImageSwitch_Tests-dummy.m"; sourceTree = "<group>"; };
+		81D3999DC29854F499B461D4AE3F2D68 /* CAFFImageSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CAFFImageSwitch.h; sourceTree = "<group>"; };
+		835C31DAA115F00AD1991729F837565C /* Pods-CAFFImageSwitch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CAFFImageSwitch_Example.modulemap"; sourceTree = "<group>"; };
+		887A5F41A38FEDC0C46460FC9B7E155F /* Pods-CAFFImageSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAFFImageSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9E16AFE636BC9226C59FC465C42200B4 /* Pods-CAFFImageSwitch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CAFFImageSwitch_Tests-resources.sh"; sourceTree = "<group>"; };
+		A1CAF9C7267D9DE7FEC974732FE6DCED /* Pods-CAFFImageSwitch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CAFFImageSwitch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2103DEEBCBA7F50C40F7813F2FEAC7F /* Pods-CAFFImageSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAFFImageSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4F07F461BFD1C0373B83A9149D6236E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD12AE347A860D940DA6ADF90FA31A81 /* Pods-CAFFImageSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAFFImageSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A5E09BEC735E5423E8A9D217FCA907 /* CAFFImageSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CAFFImageSwitch.xcconfig; sourceTree = "<group>"; };
+		DB09678845BBFF815746ACBA40D3E1F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5CE43C1FEF10102F71F73DBDD5A154 /* Pods-CAFFImageSwitch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CAFFImageSwitch_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E04826C336790BE605FC4397953C5DF7 /* Pods_CAFFImageSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAFFImageSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC42DAD25240464D5FC0D8F053055B21 /* Pods-CAFFImageSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAFFImageSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EE0463333E50BD14F071C5B3E0205514 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1705F936D8DEA643C3ACA38E0392EC /* Pods-CAFFImageSwitch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CAFFImageSwitch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E6041CD3CA19E4491C184CE5A73F335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BB803D7B1BF2AB2817EE7D86348023 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FA4552BDC5BFFAD723DD2A5CB4B1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D612FF50B2FE52061FE72446F62C4CCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEBA18140290DC45C3A1C14EC360BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B35D0D66972E068325143F953B89360 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08E8C53F81F05B2BE281E17A329E745B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74AAD25563598012171A893F88831F05 /* CAFFImageSwitch.modulemap */,
+				D7A5E09BEC735E5423E8A9D217FCA907 /* CAFFImageSwitch.xcconfig */,
+				4D283814C21AD52BBE744EF930391B4F /* CAFFImageSwitch-Private.xcconfig */,
+				6C0CC4CBCD5A228D2A2BCF28382BBEAF /* CAFFImageSwitch-dummy.m */,
+				5DE7EB278F397E961B216E3B89267E85 /* CAFFImageSwitch-prefix.pch */,
+				5FAFF4F6BE308D8E9DADB21F1FD59977 /* CAFFImageSwitch-umbrella.h */,
+				B4F07F461BFD1C0373B83A9149D6236E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CAFFImageSwitch";
+			sourceTree = "<group>";
+		};
+		44DE01FE3F90610F6822466314AD02E9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A39C86EB7E1414501CF7CAA51B2E52A /* Pods-CAFFImageSwitch_Example */,
+				46E66E85B2D948BB0FEFD8543FB5E5BE /* Pods-CAFFImageSwitch_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		46E66E85B2D948BB0FEFD8543FB5E5BE /* Pods-CAFFImageSwitch_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE0463333E50BD14F071C5B3E0205514 /* Info.plist */,
+				483BD85D3829538F6DDC9C93A734D9B0 /* Pods-CAFFImageSwitch_Tests.modulemap */,
+				695CA4ACB48244A0C9C081ACF4020B5A /* Pods-CAFFImageSwitch_Tests-acknowledgements.markdown */,
+				EE1705F936D8DEA643C3ACA38E0392EC /* Pods-CAFFImageSwitch_Tests-acknowledgements.plist */,
+				78B94F9D1009FD9A723C433E48BB8B2C /* Pods-CAFFImageSwitch_Tests-dummy.m */,
+				DD5CE43C1FEF10102F71F73DBDD5A154 /* Pods-CAFFImageSwitch_Tests-frameworks.sh */,
+				9E16AFE636BC9226C59FC465C42200B4 /* Pods-CAFFImageSwitch_Tests-resources.sh */,
+				5893676F1A8C2588EA6CAE4752CD1456 /* Pods-CAFFImageSwitch_Tests-umbrella.h */,
+				B2103DEEBCBA7F50C40F7813F2FEAC7F /* Pods-CAFFImageSwitch_Tests.debug.xcconfig */,
+				887A5F41A38FEDC0C46460FC9B7E155F /* Pods-CAFFImageSwitch_Tests.release.xcconfig */,
+			);
+			name = "Pods-CAFFImageSwitch_Tests";
+			path = "Target Support Files/Pods-CAFFImageSwitch_Tests";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6262498BC8536B6D681427E2C9B9709A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A39C86EB7E1414501CF7CAA51B2E52A /* Pods-CAFFImageSwitch_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DB09678845BBFF815746ACBA40D3E1F9 /* Info.plist */,
+				835C31DAA115F00AD1991729F837565C /* Pods-CAFFImageSwitch_Example.modulemap */,
+				A1CAF9C7267D9DE7FEC974732FE6DCED /* Pods-CAFFImageSwitch_Example-acknowledgements.markdown */,
+				0518A19A4B9C1FC609FBC68D6FCC244B /* Pods-CAFFImageSwitch_Example-acknowledgements.plist */,
+				1A3DB300A285BEA652BF3DAB87FCF913 /* Pods-CAFFImageSwitch_Example-dummy.m */,
+				6020282E83FC079F34957DD9E6AA3F11 /* Pods-CAFFImageSwitch_Example-frameworks.sh */,
+				7626E05CF5386763B1E82607CCDC4C9F /* Pods-CAFFImageSwitch_Example-resources.sh */,
+				4450AE54E6F138456AC103CBDDDB570E /* Pods-CAFFImageSwitch_Example-umbrella.h */,
+				BD12AE347A860D940DA6ADF90FA31A81 /* Pods-CAFFImageSwitch_Example.debug.xcconfig */,
+				EC42DAD25240464D5FC0D8F053055B21 /* Pods-CAFFImageSwitch_Example.release.xcconfig */,
+			);
+			name = "Pods-CAFFImageSwitch_Example";
+			path = "Target Support Files/Pods-CAFFImageSwitch_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				9F92FA286F8BBBD2FA1BAD2008CC1ADB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				44DE01FE3F90610F6822466314AD02E9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95F09425F0DDCC07C0D55AC363C1815A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				81D3999DC29854F499B461D4AE3F2D68 /* CAFFImageSwitch.h */,
+				517A60B6ED3AB37E6BA9A7F21410D25B /* CAFFImageSwitch.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9F92FA286F8BBBD2FA1BAD2008CC1ADB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3A23C5165AB31C64CDE5A96DD18D6A1 /* CAFFImageSwitch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F51D7D8CDDF87AE3B86FCC868D1EAC7 /* CAFFImageSwitch.framework */,
+				E04826C336790BE605FC4397953C5DF7 /* Pods_CAFFImageSwitch_Example.framework */,
+				4B38028C1561FE92B0EB359804FE89B0 /* Pods_CAFFImageSwitch_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8FCCDAF919CA1C2B21F428F2B9A7219 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				95F09425F0DDCC07C0D55AC363C1815A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		F3A23C5165AB31C64CDE5A96DD18D6A1 /* CAFFImageSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				E8FCCDAF919CA1C2B21F428F2B9A7219 /* Pod */,
+				08E8C53F81F05B2BE281E17A329E745B /* Support Files */,
+			);
+			name = CAFFImageSwitch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		92A7D8F78AC8CA1E885996A5BC172937 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC1AEB29310DEFA96D767AEC7EE85B6 /* CAFFImageSwitch-umbrella.h in Headers */,
+				400E176FA8697FDF5D5BE92518F910BA /* CAFFImageSwitch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E8E0C8720CF89D03FE4502F51CE82F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D756C21698E93883BE04A8A01FD4848 /* Pods-CAFFImageSwitch_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B8726B237EF6257265AA7EE776B16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AB5CE0F8EBE02CF0B966178D0B1B30 /* Pods-CAFFImageSwitch_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7BD5ECA9BC64767C944666D6D364301F /* Pods-CAFFImageSwitch_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DDE40BDCE31C57C48A7135EE4763D9 /* Build configuration list for PBXNativeTarget "Pods-CAFFImageSwitch_Tests" */;
+			buildPhases = (
+				E421C544935C5C3F01978C2BF261488F /* Sources */,
+				CAEBA18140290DC45C3A1C14EC360BF8 /* Frameworks */,
+				E76B8726B237EF6257265AA7EE776B16 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEB0DDEF2974888C74D919D711A69734 /* PBXTargetDependency */,
+			);
+			name = "Pods-CAFFImageSwitch_Tests";
+			productName = "Pods-CAFFImageSwitch_Tests";
+			productReference = 4B38028C1561FE92B0EB359804FE89B0 /* Pods_CAFFImageSwitch_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A46D289323FCCFD33FDD17D5B5EDD47D /* Pods-CAFFImageSwitch_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D797A032D8C2B4B2B8CBC4895E0FB243 /* Build configuration list for PBXNativeTarget "Pods-CAFFImageSwitch_Example" */;
+			buildPhases = (
+				3E289334EC5C6174168BAFF883A07367 /* Sources */,
+				1E6041CD3CA19E4491C184CE5A73F335 /* Frameworks */,
+				B1E8E0C8720CF89D03FE4502F51CE82F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3BAF617556926D86031E439A99EBBC /* PBXTargetDependency */,
+			);
+			name = "Pods-CAFFImageSwitch_Example";
+			productName = "Pods-CAFFImageSwitch_Example";
+			productReference = E04826C336790BE605FC4397953C5DF7 /* Pods_CAFFImageSwitch_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A815D4D5F661B3DCD8849130AF29F05D /* CAFFImageSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1EDB000CE3EBB4A415D55D0A18D2B90 /* Build configuration list for PBXNativeTarget "CAFFImageSwitch" */;
+			buildPhases = (
+				78511D8C253DE76170FB175DA85A8B50 /* Sources */,
+				A9FA4552BDC5BFFAD723DD2A5CB4B1EF /* Frameworks */,
+				92A7D8F78AC8CA1E885996A5BC172937 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAFFImageSwitch;
+			productName = CAFFImageSwitch;
+			productReference = 4F51D7D8CDDF87AE3B86FCC868D1EAC7 /* CAFFImageSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A815D4D5F661B3DCD8849130AF29F05D /* CAFFImageSwitch */,
+				A46D289323FCCFD33FDD17D5B5EDD47D /* Pods-CAFFImageSwitch_Example */,
+				7BD5ECA9BC64767C944666D6D364301F /* Pods-CAFFImageSwitch_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E289334EC5C6174168BAFF883A07367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DDA56F035BFADA3A23150836D63F6A /* Pods-CAFFImageSwitch_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78511D8C253DE76170FB175DA85A8B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7459417871CA743A7124CDFC930497B2 /* CAFFImageSwitch-dummy.m in Sources */,
+				04F3A0C1A73FE1511AA7DE5EC7EE0C22 /* CAFFImageSwitch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E421C544935C5C3F01978C2BF261488F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA2081AF3E5F047ECCEE9C0FB972ACF /* Pods-CAFFImageSwitch_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD3BAF617556926D86031E439A99EBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CAFFImageSwitch;
+			target = A815D4D5F661B3DCD8849130AF29F05D /* CAFFImageSwitch */;
+			targetProxy = 4596531DFB093D2639939E65AE3CAF1F /* PBXContainerItemProxy */;
+		};
+		FEB0DDEF2974888C74D919D711A69734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CAFFImageSwitch;
+			target = A815D4D5F661B3DCD8849130AF29F05D /* CAFFImageSwitch */;
+			targetProxy = 38F1FFC8B53C31BD60DD5DB543FB151B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1BE68172A5EDBE444EC7D558C8A9C081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D283814C21AD52BBE744EF930391B4F /* CAFFImageSwitch-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CAFFImageSwitch/CAFFImageSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CAFFImageSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CAFFImageSwitch/CAFFImageSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CAFFImageSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37D9EDCEEAD7025742BA8B6F85F04E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2103DEEBCBA7F50C40F7813F2FEAC7F /* Pods-CAFFImageSwitch_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CAFFImageSwitch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CAFFImageSwitch_Tests/Pods-CAFFImageSwitch_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CAFFImageSwitch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39B4F55BC35CDE44E46196F0D931A5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC42DAD25240464D5FC0D8F053055B21 /* Pods-CAFFImageSwitch_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CAFFImageSwitch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CAFFImageSwitch_Example/Pods-CAFFImageSwitch_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CAFFImageSwitch_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F5A99281CF9036206F20A5122D708EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D283814C21AD52BBE744EF930391B4F /* CAFFImageSwitch-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CAFFImageSwitch/CAFFImageSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CAFFImageSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CAFFImageSwitch/CAFFImageSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CAFFImageSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBAA5FD59AE82A27D19CA68AF1820FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD12AE347A860D940DA6ADF90FA31A81 /* Pods-CAFFImageSwitch_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CAFFImageSwitch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CAFFImageSwitch_Example/Pods-CAFFImageSwitch_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CAFFImageSwitch_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAA2F4EC4144A87955A4682E72AFC7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 887A5F41A38FEDC0C46460FC9B7E155F /* Pods-CAFFImageSwitch_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CAFFImageSwitch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CAFFImageSwitch_Tests/Pods-CAFFImageSwitch_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CAFFImageSwitch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07DDE40BDCE31C57C48A7135EE4763D9 /* Build configuration list for PBXNativeTarget "Pods-CAFFImageSwitch_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D9EDCEEAD7025742BA8B6F85F04E95 /* Debug */,
+				CAA2F4EC4144A87955A4682E72AFC7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D797A032D8C2B4B2B8CBC4895E0FB243 /* Build configuration list for PBXNativeTarget "Pods-CAFFImageSwitch_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAA5FD59AE82A27D19CA68AF1820FC4 /* Debug */,
+				39B4F55BC35CDE44E46196F0D931A5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1EDB000CE3EBB4A415D55D0A18D2B90 /* Build configuration list for PBXNativeTarget "CAFFImageSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5A99281CF9036206F20A5122D708EC /* Debug */,
+				1BE68172A5EDBE444EC7D558C8A9C081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
