@@ -13,23 +13,12 @@
 		136E2C881BA9B9F4002E1056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136E2C861BA9B9F4002E1056 /* Main.storyboard */; };
 		136E2C8A1BA9B9F4002E1056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136E2C891BA9B9F4002E1056 /* Assets.xcassets */; };
 		136E2C8D1BA9B9F4002E1056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136E2C8B1BA9B9F4002E1056 /* LaunchScreen.storyboard */; };
-		136E2C981BA9B9F5002E1056 /* CaffImageSwitchExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 136E2C971BA9B9F5002E1056 /* CaffImageSwitchExampleUITests.m */; };
 		136E2CA71BA9BBAF002E1056 /* CAFFImageSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 136E2CA61BA9BBAF002E1056 /* CAFFImageSwitch.m */; settings = {ASSET_TAGS = (); }; };
 		136E2CAD1BA9C9D5002E1056 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 136E2CA91BA9C9D5002E1056 /* check.png */; settings = {ASSET_TAGS = (); }; };
 		136E2CAE1BA9C9D5002E1056 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 136E2CAA1BA9C9D5002E1056 /* check@2x.png */; settings = {ASSET_TAGS = (); }; };
 		136E2CAF1BA9C9D5002E1056 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 136E2CAB1BA9C9D5002E1056 /* cross.png */; settings = {ASSET_TAGS = (); }; };
 		136E2CB01BA9C9D5002E1056 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 136E2CAC1BA9C9D5002E1056 /* cross@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		136E2C941BA9B9F5002E1056 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 136E2C721BA9B9F4002E1056 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 136E2C791BA9B9F4002E1056;
-			remoteInfo = CaffImageSwitchExample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		136E2C7A1BA9B9F4002E1056 /* CaffImageSwitchExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaffImageSwitchExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +31,6 @@
 		136E2C891BA9B9F4002E1056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		136E2C8C1BA9B9F4002E1056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		136E2C8E1BA9B9F4002E1056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		136E2C931BA9B9F5002E1056 /* CaffImageSwitchExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaffImageSwitchExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		136E2C971BA9B9F5002E1056 /* CaffImageSwitchExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaffImageSwitchExampleUITests.m; sourceTree = "<group>"; };
 		136E2C991BA9B9F5002E1056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		136E2CA51BA9BBAF002E1056 /* CAFFImageSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAFFImageSwitch.h; sourceTree = "<group>"; };
@@ -55,13 +43,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		136E2C771BA9B9F4002E1056 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		136E2C901BA9B9F5002E1056 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				136E2C7A1BA9B9F4002E1056 /* CaffImageSwitchExample.app */,
-				136E2C931BA9B9F5002E1056 /* CaffImageSwitchExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,24 +145,6 @@
 			productReference = 136E2C7A1BA9B9F4002E1056 /* CaffImageSwitchExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		136E2C921BA9B9F5002E1056 /* CaffImageSwitchExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 136E2C9F1BA9B9F5002E1056 /* Build configuration list for PBXNativeTarget "CaffImageSwitchExampleUITests" */;
-			buildPhases = (
-				136E2C8F1BA9B9F5002E1056 /* Sources */,
-				136E2C901BA9B9F5002E1056 /* Frameworks */,
-				136E2C911BA9B9F5002E1056 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				136E2C951BA9B9F5002E1056 /* PBXTargetDependency */,
-			);
-			name = CaffImageSwitchExampleUITests;
-			productName = CaffImageSwitchExampleUITests;
-			productReference = 136E2C931BA9B9F5002E1056 /* CaffImageSwitchExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,10 +156,6 @@
 				TargetAttributes = {
 					136E2C791BA9B9F4002E1056 = {
 						CreatedOnToolsVersion = 7.0;
-					};
-					136E2C921BA9B9F5002E1056 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 136E2C791BA9B9F4002E1056;
 					};
 				};
 			};
@@ -215,7 +173,6 @@
 			projectRoot = "";
 			targets = (
 				136E2C791BA9B9F4002E1056 /* CaffImageSwitchExample */,
-				136E2C921BA9B9F5002E1056 /* CaffImageSwitchExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,13 +192,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		136E2C911BA9B9F5002E1056 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -256,23 +206,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		136E2C8F1BA9B9F5002E1056 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				136E2C981BA9B9F5002E1056 /* CaffImageSwitchExampleUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		136E2C951BA9B9F5002E1056 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 136E2C791BA9B9F4002E1056 /* CaffImageSwitchExample */;
-			targetProxy = 136E2C941BA9B9F5002E1056 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		136E2C861BA9B9F4002E1056 /* Main.storyboard */ = {
@@ -398,30 +332,6 @@
 			};
 			name = Release;
 		};
-		136E2CA01BA9B9F5002E1056 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CaffImageSwitchExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.caff.CaffImageSwitchExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CaffImageSwitchExample;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		136E2CA11BA9B9F5002E1056 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CaffImageSwitchExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.caff.CaffImageSwitchExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CaffImageSwitchExample;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -439,14 +349,6 @@
 			buildConfigurations = (
 				136E2C9D1BA9B9F5002E1056 /* Debug */,
 				136E2C9E1BA9B9F5002E1056 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		136E2C9F1BA9B9F5002E1056 /* Build configuration list for PBXNativeTarget "CaffImageSwitchExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				136E2CA01BA9B9F5002E1056 /* Debug */,
-				136E2CA11BA9B9F5002E1056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
