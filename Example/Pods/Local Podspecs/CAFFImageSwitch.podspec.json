@@ -1,0 +1,21 @@
+{
+  "name": "CAFFImageSwitch",
+  "version": "0.1.0",
+  "summary": "UISwitch-like control with customizable images for `on` and `off` states. Based on https://github.com/bvogelzang/SevenSwitch.",
+  "description": "",
+  "homepage": "https://github.com/caffco/CAFFImageSwitch",
+  "license": "GPLv2",
+  "authors": {
+    "Lluís Ulzurrun de Asanza i Sàez": "lluis@caff.co"
+  },
+  "source": {
+    "git": "https://github.com/caffco/CAFFImageSwitch.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/sumolari",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*"
+}
